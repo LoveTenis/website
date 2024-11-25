@@ -1,0 +1,59 @@
+body{
+    font-family: 'lato', sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    padding: 20px 50px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seach{
+     display: flex;
+     align-items: center;
+     background-color: white;
+     padding: 10px 20px;
+     border-radius: 10px;    
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: rgb(68, 157, 240); 
+}
+
+.Oferta Limitada{
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color:lightslategray;
+    font-weight: 400;
+}
+
+.slider{
+    background: url(parede-de-tijolo-bruto-textura-tijolo-fundo-preto-escuro_37129-690.avifpolygon);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
+}
